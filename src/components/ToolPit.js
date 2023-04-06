@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const ToolPit = ({ position }) => {
+
     const [flag, setFlag] = useState(false);
     //when hovered on the button setting the value of flag to true
     function handleMouseIn() {
